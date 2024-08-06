@@ -1,10 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: white;
+    margin: 0px;
 }
 
 .wrapper {
-    margin: auto 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* header section styling */
@@ -16,7 +20,8 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
-    padding: 32px 50px;
+    margin: 0px;
+    padding: 16px 50px;
     /* 50px padding from edge of div */
 }
 
@@ -37,24 +42,45 @@ ul {
 
 .intro {
     background-color: #1F2937;
+    max-width: 1440px;
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
-    padding: 32px;
+    padding: 45px;
 }
 
-.left, .right {
-    width: 400px;
-    padding: 32px;
+.pframe {
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.left {
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 500px;
+}
 .title {
     font-size: 48px;
+    font-weight: bolder;
+    padding: 12px;
 }
 
 .copy1 {
     font-size: 18px;
+    padding: 12px;
+}
+
+button {
+    margin: 12px;
 }
 
 /* info boxes section styling */
@@ -89,6 +115,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: auto 32px;
     font-size: 18px;
 }
