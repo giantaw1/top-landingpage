@@ -3,8 +3,9 @@ body {
     background-color: white;
 }
 
-
-
+.wrapper {
+    margin: auto 300px;
+}
 /* header section styling */
 
 .header {
@@ -14,7 +15,8 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
-    padding: 32px;
+    padding: 32px 50px;
+    
 }
 
 .logo {
