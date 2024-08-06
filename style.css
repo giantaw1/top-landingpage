@@ -136,13 +136,37 @@ button {
 .quote {
     height: 400px;
     background-color: #d0d3da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-wrap {
+    width: 750px;
+}
+
+.quote-body {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.quote-attrib {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    font-size: 25px;
+    margin: 0px;
 }
 
 /* cta section styling */
 
 .cta {
-    height: 300px;
-    background-color: white;
+    min-height: 300px;
+    background-color: #E5E7EB;
+
 }
 
 /* footer section styling */
