@@ -50,14 +50,6 @@ ul {
     padding: 45px;
 }
 
-/*.pframe {
-    width: 600px;
-    margin: 0px;
-    padding: 0px 32px;
-    display: flex;
-    justify-content: flex-end;
-}*/
-
 .left {
     width: 600px;
     flex-shrink: 1;
@@ -149,13 +141,13 @@ button {
     width: 800px;
     font-size: 36px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 200;
     margin: 0px;
 }
 
 .quote-attrib {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     text-align: right;
     font-size: 25px;
     margin: 0px;
@@ -166,13 +158,50 @@ button {
 .cta {
     min-height: 300px;
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.cta-wrapper {
+    height: 125px;
+    min-width: 1000px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-button {
+    margin: 12px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 24px; 
+}
+
+.cta-text {
+    padding: 16px;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 8px;
+}
+
+.cta-copy {
+    font-size: 18px;
+    color: white;
+    padding: 0px 8px;
 }
 
 /* footer section styling */
 
 .footer {
-    height: 50px;
+    height: 75px;
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
